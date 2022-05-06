@@ -11,9 +11,9 @@
 */
 
 /* Import [DONT TOUCH] */
-@import url('wip');
+@import url('https://github.com/arsybby/WorkingMoonRabbitsEdit/blob/main/release/tsukino-mito.base.css');
 /* This makes Discord like another window */
-@import url('wip');
+@import url('https://github.com/arsybby/WorkingMoonRabbitsEdit/blob/main/release/window-mode.css');
 
 /* Top Window Text */
 :root {
