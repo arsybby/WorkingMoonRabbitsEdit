@@ -1,0 +1,55 @@
+/**
+ * @name Moon Rabbits Dream About Virtual - Arsy's Edit
+ * @description Based in Tsukino Mito Album cover
+ * @author // original code by zuzumi#8097 //edited by !arsy#0001
+ * @authorId // original code by 403725623161257984 //edited by 348091267885957122
+ * @invite PsNtzGeHuW
+ * @donate https://www.paypal.me/hurtyoutube
+ * @website https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual
+ * @source https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/blob/main/release/tsukino-mito.base.css
+ * @version 2.0 // arsywashere
+*/
+
+/* Import [DONT TOUCH] */
+@import url('wip');
+/* This makes Discord like another window */
+@import url('wip');
+
+/* Top Window Text */
+:root {
+    --a-custom-text: "I LOVE ARSY"; /* The text that appear in top, "" if you dont want any [write in "(text)"] */
+}
+
+/*----------------------------------------------------
+                anything else down here
+------------------------------------------------------*/
+/* Reverse */
+#app-mount .container-1eFtFS {
+    flex-direction: row;
+}
+#app-mount .wrapper-z5ab_q {
+    transform: unset;
+    margin-left: unset;
+}
+#app-mount .content-1jQy2l {
+    flex-direction: row;
+}
+.theme-dark .scroller-3X7KbA, .theme-dark .wrapper-1_HaEi {
+    background-color: hsla(0, 0%, 20%, 0.4);
+}
+.theme-light  .scroller-3X7KbA, .theme-light .wrapper-1_HaEi {
+    background-color: hsla(0, 0%, 100%, 0.4);
+}
+
+.recentMentionsPopout-2bI1ZN {
+    right: unset !important;
+    position: unset !important;
+}
+
+#app-mount .detailsTooltip-G9hSSa {
+    right: unset !important;
+}
+#app-mount .detailsTooltip-G9hSSa .tooltipPointer-3L49xb {
+    transform: rotate(90deg) !important;
+    left: unset !important;
+}

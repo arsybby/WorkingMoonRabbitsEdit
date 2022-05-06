@@ -1,0 +1,56 @@
+/* Like a window */
+#app-mount .layers-OrUESM {
+    margin-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-bottom-right-radius: var(--radius-theme);
+    border-bottom-left-radius: var(--radius-theme);
+}
+#app-mount .layers-OrUESM {
+    border: var(--the-borders);
+    border-top: 0 !important;
+    box-shadow: var(--elevation-high);
+}
+#app-mount .withFrame-2dL45i {
+    background: var(--drag-background);
+    border-top-left-radius: var(--radius-theme);
+    border-top-right-radius: var(--radius-theme);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+    min-height: 32px;
+    border: var(--the-borders);
+    flex-direction: row;
+}
+
+#app-mount .typeWindows-2-g3UY {
+    z-index: 100;
+}
+#app-mount .xenoLib-notifications {
+    margin-top: 62px !important;
+    margin: -27px;
+}
+#app-mount .backdrop-2ByYRN {
+    -webkit-app-region: no-drag;
+}
+
+#app-mount .root-2zfUH6 {
+    margin-top: 62px !important;
+    margin: 27px;
+    border-bottom-left-radius: var(--radius-theme);
+    border-bottom-right-radius: var(--radius-theme);
+}
+
+#app-mount .withFrame-2dL45i::after {
+    top: 32px;
+    margin-left: 80px;
+}
+
+/* BD Notice */
+.noticeWrapper-8z511t{
+    margin-left: 24px;
+    margin-right: 24px;
+    border-left: var(--the-borders);
+    border-right: var(--the-borders);
+    box-shadow: none !important;
+}

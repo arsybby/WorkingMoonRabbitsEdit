@@ -1,0 +1,81 @@
+/* Pop by Ultra[devinkid1] (edited) */
+:root {
+    /* Hover Scale */
+            
+        --HoverScale: 1.025;
+            
+    /* Transition Time */
+            
+        --TransitionTime: 0.25s;
+            
+    /* Ease Type */
+            
+    --EaseType: cubic-bezier(0, 0.75, 0, 1.75);
+    }
+    
+    /* ---- Hover Animations ---- */
+    /* Buttons */ .button-1U79Hu:hover, .button-G2dHuB.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.fullWidth-fJIsjq.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover, .lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .button-1h8W6d:hover, .button-1h8W6d, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorWhite-1H92hK.sizeMedium-2bFIHr.grow-2sR_-F:hover, .fieldButton-14lHvK.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeSmall-wU2dO-.grow-2sR_-F:hover,
+    /* Settings List Items */ .side-2ur1Qk .item-3XjbnG:hover,
+    /* Stage discovery */ .container-S9SaVf:hover,
+    /* Active now card */ .itemCard-3Etziu:hover,
+    /* Activity button */ .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
+    /* Friendlist */ .peopleListItem-u6dGxF:hover,
+    /* Direct Message List Items */ .channel-1Shao0:hover,
+    /* Member List Items */ .member-2gU6Ar:hover,
+    /* Context Menu Items */ .item-1OdjEX:hover,
+    /* Message Profile Pictures */ .avatar-2e8lTP.clickable-31pE3P:hover,
+    /* Topbar Items */ .toolbar-3_r2xA > .iconWrapper-2awDjA:hover > svg > path, .toolbar-3_r2xA > .inviteToolbar-2k2nqz > .iconWrapper-2awDjA:hover > svg > path, .toolbar-3_r2xA > a > .iconWrapper-2awDjA:hover > svg > path,
+    /* Server Channels */ .content-1gYQeQ:hover,
+    /* Nitro Tab Feature Cards */ .feature-2IUcBI:hover,
+    /* Quick Switcher List Items */ .resultFocused-3aIoYe:hover,
+    /* Quick Switcher Search Box */ .input-3r5zZY:hover,
+    /* Sidebar in Discover */ .categoryItem-Kc_HK_:hover,
+    /* Discovery Tab List Items */ .categoryItem-3zFJns:hover,
+    /* Discovery Tab Cards */ .card-2TuZPZ:hover,
+    /* Message Options */ .button-3bklZh:hover > svg > path,
+    /* Gift Nitro */ .giftAction-yhDLaW:hover,
+    /* Call users */ .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,
+    /* User bar */ .panels-3wFtMD .button-12Fmur:hover path
+    {
+        transform-origin: center;
+        transform: scale(var(--HoverScale));
+        box-shadow: var(--elevation-high);
+    }
+    
+    /* ---- Static Animations ---- */
+    /* Buttons */ .button-1U79Hu, .button-G2dHuB.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.fullWidth-fJIsjq.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F, .lookFilled-yCfaCM.colorGreen-3y-Z79, .button-1h8W6d, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorWhite-1H92hK.sizeMedium-2bFIHr.grow-2sR_-F, .fieldButton-14lHvK.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeSmall-wU2dO-.grow-2sR_-F,
+    /* Settings List Items */ .side-2ur1Qk .item-3XjbnG,
+    /* Stage discovery */ .container-S9SaVf,
+    /* Active now card */ .itemCard-3Etziu,
+    /* Activity button */ .lookFilled-yCfaCM.colorGrey-2iAG-B,
+    /* Friendlist */ .peopleListItem-u6dGxF,
+    /* Direct Message List Items */ .channel-1Shao0,
+    /* Member List Items */ .member-2gU6Ar,
+    /* Context Menu Items */ .item-1OdjEX,
+    /* Message Profile Pictures */ .avatar-2e8lTP.clickable-31pE3P,
+    /* Topbar Items */ .toolbar-3_r2xA > .iconWrapper-2awDjA > svg > path, .toolbar-3_r2xA > .inviteToolbar-2k2nqz > .iconWrapper-2awDjA > svg > path, .toolbar-3_r2xA > a > .iconWrapper-2awDjA > svg > path,
+    /* Server Channels */ .content-1gYQeQ,
+    /* Nitro Tab Feature Cards */ .feature-2IUcBI,
+    /* Quick Switcher List Items */ .resultFocused-3aIoYe,
+    /* Quick Switcher Search Box */ .input-3r5zZY,
+    /* Sidebar in Discover */ .categoryItem-Kc_HK_,
+    /* Discovery Tab List Items */ .categoryItem-3zFJns,
+    /* Discovery Tab Cards */ .card-2TuZPZ,
+    /* Message Options */ .button-3bklZh > svg > path,
+    /* Gift Nitro */ .giftAction-yhDLaW,
+    /* Call users */ .content-1Tgc42,
+    /* User bar */ .panels-3wFtMD .button-12Fmur path
+    {
+        transition: var(--EaseType) var(--TransitionTime);
+        box-shadow: none;
+    }
+    
+    /* ---- When Active ---- */
+    /* Friend list */ .peopleListItem-u6dGxF.active-2UF8Zh,
+    /* Active now */ .outer-2JOHae.active-1W_Gl9,
+    /* Memberlist */ .member-2gU6Ar.container-1oeRFJ.selected-1-Z6gm
+    {
+        transform-origin: center;
+        transform: scale(var(--HoverScale));
+        box-shadow: var(--elevation-high);
+    }
